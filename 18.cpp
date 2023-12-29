@@ -108,9 +108,9 @@ int main()
 
         cal[i].getnum();
         i++;
-        cout << "\nDo you want to do some more calc?";
+        cout << "\nDo you want to do some more calc? (Y-yes, N-no)";
         cin >> y;
-        if (toupper(y) == 'N' )
+        if (toupper(y) == 'N')
         {
             break;
         }
@@ -121,7 +121,6 @@ int main()
     {
         cal[j].showhistory();
     }
-
 
     return 0;
 }

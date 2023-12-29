@@ -1,11 +1,11 @@
-//Write a C++ program to display the following pattern:
- /* 1 
-   232
-  34543 
- 4567654
-  34543
-   232
-    1*/
+// Write a C++ program to display the following pattern:
+/* 1
+  232
+ 34543
+4567654
+ 34543
+  232
+   1*/
 #include <iostream>
 using namespace std;
 
@@ -19,11 +19,6 @@ int main()
     {
         range = i > n ? 2 * n - i : i;
         displayNum = range;
-
-        for (int s = 0; s < n - range; s++)
-        {
-            cout << " ";
-        }
 
         for (int j = 0; j < 2 * range - 1; j++)
         {
